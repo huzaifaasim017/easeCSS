@@ -1,0 +1,8 @@
+$width-steps: 20;
+
+@for $i from 1 through $width-steps {
+  $width: $i * 5;
+  .w-#{$width} {
+    width: #{$width}#{'%'};
+  }
+}

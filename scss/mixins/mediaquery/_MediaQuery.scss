@@ -1,0 +1,63 @@
+@mixin min-breakpoints($breakpoint) {
+    @if $breakpoint == extrasmall {
+        @media only screen and (min-width: 280px) {
+            @content;
+        }
+    }
+
+    @else if $breakpoint == small {
+        @media only screen and (min-width: 490px) {
+            @content;
+        }
+    }
+
+    @else if $breakpoint == medium {
+        @media only screen and (min-width: 768px) {
+            @content;
+        }
+    }
+
+    @else if $breakpoint == large {
+        @media only screen and (min-width: 992px) {
+            @content;
+        }
+    }
+
+    @else if $breakpoint == xlarge {
+        @media only screen and (min-width: 1370px) {
+            @content;
+        }
+    }
+}
+
+@mixin max-breakpoints($breakpoint) {
+    @if $breakpoint == extrasmall {
+        @media only screen and (max-width: 280px) {
+            @content;
+        }
+    }
+
+    @else if $breakpoint == small {
+        @media only screen and (max-width: 490px) {
+            @content;
+        }
+    }
+
+    @else if $breakpoint == medium {
+        @media only screen and (max-width: 768px) {
+            @content;
+        }
+    }
+
+    @else if $breakpoint == large {
+        @media only screen and (max-width: 992px) {
+            @content;
+        }
+    }
+
+    @else if $breakpoint == xlarge {
+        @media only screen and (max-width: 1370px) {
+            @content;
+        }
+    }
+}

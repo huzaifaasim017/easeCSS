@@ -1,0 +1,8 @@
+$height-steps: 20;
+
+@for $i from 1 through $height-steps {
+  $height: $i * 5;
+  .h-#{$height} {
+    height: #{$height}#{'%'};
+  }
+}
