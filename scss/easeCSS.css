@@ -1,0 +1,74 @@
+:root {
+  /* Gray Shades */
+  --color-gray-0: #aaaaaa;
+  --color-gray-1: #999999;
+  --color-gray-2: #888888;
+  --color-gray-3: #777777;
+  --color-gray-4: #666666;
+  --color-gray-5: #555555;
+  --color-gray-6: #444444;
+  --color-gray-7: #333333;
+  --color-gray-8: #222222;
+  --color-gray-9: #111111;
+  --color-gray-10: #000000;
+  /* Red Shades */
+  --color-red-0: #fff0f0;
+  --color-red-1: #ffe6e6;
+  --color-red-2: #ffcccc;
+  --color-red-3: #ff9999;
+  --color-red-4: #ff6666;
+  --color-red-5: #ff3333;
+  --color-red-6: #ff0000;
+  --color-red-7: #cc0000;
+  --color-red-8: #990000;
+  --color-red-9: #660000;
+  --color-red-10: #330000;
+  /* Green Shades */
+  --color-green-0: #f0fff0;
+  --color-green-1: #e6ffe6;
+  --color-green-2: #ccffcc;
+  --color-green-3: #99ff99;
+  --color-green-4: #66ff66;
+  --color-green-5: #33ff33;
+  --color-green-6: #00ff00;
+  --color-green-7: #00cc00;
+  --color-green-8: #009900;
+  --color-green-9: #006600;
+  --color-green-10: #003300;
+  /* Blue Shades */
+  --color-blue-0: #f0f0ff;
+  --color-blue-1: #e6e6ff;
+  --color-blue-2: #ccccff;
+  --color-blue-3: #9999ff;
+  --color-blue-4: #6666ff;
+  --color-blue-5: #3333ff;
+  --color-blue-6: #0000ff;
+  --color-blue-7: #0000cc;
+  --color-blue-8: #000099;
+  --color-blue-9: #000066;
+  --color-blue-10: #000033;
+  /* Yellow Shades */
+  --color-yellow-0: #fffff0;
+  --color-yellow-1: #ffffe6;
+  --color-yellow-2: #ffffcc;
+  --color-yellow-3: #ffff99;
+  --color-yellow-4: #ffff66;
+  --color-yellow-5: #ffff33;
+  --color-yellow-6: #ffff00;
+  --color-yellow-7: #cccc00;
+  --color-yellow-8: #999900;
+  --color-yellow-9: #666600;
+  --color-yellow-10: #333300;
+  /* Purple Shades */
+  --color-purple-0: #fff0ff;
+  --color-purple-1: #ffe6ff;
+  --color-purple-2: #ffccff;
+  --color-purple-3: #ff99ff;
+  --color-purple-4: #ff66ff;
+  --color-purple-5: #ff33ff;
+  --color-purple-6: #ff00ff;
+  --color-purple-7: #cc00cc;
+  --color-purple-8: #990099;
+  --color-purple-9: #660066;
+  --color-purple-10: #330033;
+}/*# sourceMappingURL=easeCSS.css.map */
