@@ -1,0 +1,12 @@
+scss
+|-- classes
+|-- mixins
+|-- roots
+|   |-- colors
+|   |   |-- _General.scss
+|   |-- typography
+|   |   |-- _FontSize.scss
+|-- systems
+|   |-- grid
+|   |   |-- _Grid.scss
+|   |-- flex
