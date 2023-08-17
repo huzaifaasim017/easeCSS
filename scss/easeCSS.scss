@@ -3,8 +3,11 @@
 // Powered by: HunerOn
 
 // Root 
-@import 'roots/colors/_General.scss';
+@import 'roots/colors/_General';
+
+// Mixins 
+@import 'mixins/mediaquery/_MediaQuery';
 
 // Classes 
-@import 'classes/sizing/_Width.scss';
-@import 'classes/sizing/_Height.scss';
+@import 'classes/sizing/_Width';
+@import 'classes/sizing/_Height';

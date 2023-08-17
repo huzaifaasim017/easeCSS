@@ -1,9 +1,10 @@
-$breakpoints: (
-  xsm: 320px,
+$min-breakpoints: (
+  xsm: 280px,
   sm: 480px,
   md: 768px,
-  lg: 1280px,
-  xlg: 1440px,
+  xmd: 920px,
+  lg: 1366px,
+  xlg: 1640px,
   xxlg: 1920px
 );
 
