@@ -1,17 +1,25 @@
-$min-breakpoints: (
+$breakpoints: (
   xsm: 280px,
   sm: 480px,
   md: 768px,
   xmd: 920px,
   lg: 1366px,
   xlg: 1640px,
-  xxlg: 1920px
+  xxlg: 1930px
 );
 
 @mixin min-breakpoint($breakpoint) {
   $min-width: map-get($breakpoints, $breakpoint );
 
   @media only screen and (min-width: $min-width) {
+    @content;
+  }
+}
+
+@mixin max-breakpoint($breakpoint) {
+  $max-width: map-get($breakpoints, $breakpoint );
+
+  @media only screen and (max-width: $max-width) {
     @content;
   }
 }
